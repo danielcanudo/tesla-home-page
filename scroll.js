@@ -23,8 +23,6 @@ document.addEventListener('scroll', () => {
       if (document.onWayTo === index) {
         document.onWayTo = null;
       }
-    } else {
-      section.className = '';
     }
   })
 
